@@ -1,0 +1,19 @@
+header {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-content: center;
+  width: 100%;
+  height: 140px;
+  color: #eb7371;
+  line-height: 3px;
+  padding-left: 50px;
+  padding-top: 40px;
+  padding-bottom: 0px;
+
+  p {
+    color: #dadada;
+    font-family: $pFontFamily;
+    font-style: italic;
+  }
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif|Montserrat');
+
+$h1FontFamily: 'Montserrat';
+$pFontFamily: 'Droid Serif';
+
+@import "_header", "_footer";
+
+body {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    div {
+      display: flex;
+      width: 50%;
+      height: 600px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      h1 {font-family: $h1FontFamily; font-weight: normal; font-size: 30px; color: white;}
+      img {width: 45%;}
+      p {font-family: $pFontFamily, serif; font-style: italic; font-weight: normal; color: white;}
+      .divider {
+        background-color: white;
+        width: 30px;
+        height: 3px;
+      }
+    }
+
+}
+
+#r {background-color: #eb7371;}
+#g {background-color: #93dc88;}
+#b {background-color: #85ccf2;}
+#p {background-color: #c099cc;}
+#t {background-color: #2cc9c2;}
+#o {background-color: #f2c0bb;}
+#y {background-color: #e3d578;}
+#n {background-color: #7191e4;}
+
+@media (max-width:800px) {
+
+body {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+   div {
+    width: 100%;
+  }
+}
+}
